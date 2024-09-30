@@ -1,0 +1,33 @@
+[
+	{
+		"statusCode": "200",
+		"statusText": "OK",
+		"Endpoint": "/users",
+		"scenario": "GET All - valid endpoint"
+	},
+	{
+		"statusCode": "404",
+		"statusText": "Not Found",
+		"Endpoint": "/user",
+		"scenario": "GET All - invalid endpoint"
+	},
+	{
+		"statusCode": "404",
+		"statusText": "Not Found",
+		"Endpoint": "/",
+		"scenario": "GET All - no endpoint"
+	},
+	{
+		"statusCode": "401",
+		"statusText": "Unauthorized",
+		"Endpoint": "/users",
+		"scenario": "GET All - no auth"
+	},
+	{
+		"statusCode": "405",
+		"statusText": "Method Not Allowed",
+		"Endpoint": "/users",
+		"scenario": "GET All - invalid method POST"
+	}
+]
+

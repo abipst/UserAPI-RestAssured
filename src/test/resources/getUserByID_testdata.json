@@ -1,0 +1,28 @@
+[
+	{
+		"statusCode": "200",
+		"statusText": "OK",
+		"scenario": "GET by ID - valid endpoint"
+	},
+	{
+		"statusCode": "404",
+		"statusText": "Not Found",
+		"scenario": "GET by ID - invalid userID"
+	},
+	{
+		"statusCode": "401",
+		"statusText": "Unauthorized",
+		"Endpoint": "/user/",
+		"scenario": "GET by ID - no auth"
+	},
+	{
+		"statusCode": "405",
+		"statusText": "Method Not Allowed",
+		"scenario": "GET by ID - invalid method PUT"
+	},
+	{
+		"statusCode": "404",
+		"statusText": "Not Found",
+		"scenario": "GET by ID - invalid endpoint"
+	}
+]

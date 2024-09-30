@@ -1,0 +1,13 @@
+{
+    "user_first_name": "aaa",
+    "user_last_name": "doe",
+    "user_contact_number": 4501122882,
+    "user_email_id": "awe11a2@gail.com",
+    "userAddress": { 
+        "plotNumber": "1-a",
+        "street": "as",
+        "state": "as",
+        "country": "as",
+        "zipCode": "30005"  
+    }
+}
